@@ -32,12 +32,11 @@ def separateNumbersReturn(s):
             prev_num = str(second_num)
             cur_count = cur_count + num_len
             beautiful_string = "YES"
-            cur_count = cur_count + 1
         else:
             # prev_num = str(prev_num) + s[cur_count]
             prev_num = s[:cur_count]
             min_num = prev_num
-            
+            cur_count = cur_count + 1
             beautiful_string = "NO"
 
     ret_val = "NO"
