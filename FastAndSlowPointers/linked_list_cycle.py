@@ -2,6 +2,14 @@ from linked_list import LinkedList
 from linked_list_node import LinkedListNode
 
 
+"""
+Time complexity
+The time complexity of the algorithm is O(n) , where n is the number of nodes in the linked list.
+
+Space complexity
+The space complexity of the algorithm above is O(1).
+"""
+
 def detect_cycle(head):
     # define slow and fast pointers
     slow = head 
