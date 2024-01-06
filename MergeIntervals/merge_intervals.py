@@ -9,6 +9,7 @@ Space complexity:
 The space complexity of the function Merge Intervals is O(n), where n is the number of intervals in the input array. This is because 
 the output array will have at most n elements, and the additional space used by the function is constant. The built-in Python functions 
 invoked by the code, such as max(), do not significantly impact the overall space complexity.
+If we do not consider the space taken by output array then O(1) is the space complexity 
 """
 
 def merge_intervals(intervals):
