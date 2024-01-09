@@ -22,7 +22,8 @@ def find_sets(intervals):
     # add first end time of the meeting into the heap 
     heapq.heappush(heap, intervals[0][1])
     
-    for i in intervals:
+    # iterate thru all the interval except 1 
+    for i in intervals[1:]:
         # take a earliest element from queue 
         earliestEndTime = heapq.heappop(heap)
         
@@ -41,9 +42,8 @@ def find_sets(intervals):
         heapq.heappush(heap, earliestEndTime)   
         
 
-    # now we should have all the rooms we need, except the first one we added manually 
-    # so remove one from the result 
-    rooms = len(heap) - 1
+    # now we should have all the rooms we need
+    rooms = len(heap)
 
     return rooms
 
