@@ -115,8 +115,8 @@ def find_repeated_sequences(s, k):
             # if no, add it in the hash val set to check next time 
             hash_set.add(hash_val)
 
-    # return the output 
-    return output_set
+        # return the output 
+        return output_set
 
 
 if __name__ == "__main__":
