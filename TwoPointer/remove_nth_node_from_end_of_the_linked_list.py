@@ -56,7 +56,7 @@ def remove_nth_last_node(head, n):
 
 if __name__ == "__main__":
     lst = [69, 8, 49, 106, 116, 112]
-    n = 6
+    n = 5
 
     lnkLst = LinkedList()
     lnkLst.create_linked_list(lst)
