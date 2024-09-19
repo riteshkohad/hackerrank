@@ -1,1 +1,14 @@
 https://techiedelight.quora.com/500-Data-Structures-and-Algorithms-interview-questions-and-their-solutions
+
+FB Interview questions, this was metnioned in Blind post stating that question will be one of theses could be worded differently
+https://leetcode.com/problem-list/7p59281/
+
+
+https://medium.com/@lamhotjm/60popular-leetcode-problem-solutions-for-faang-maang-coding-interview-52474731e652
+
+
+https://www.teamblind.com/post/Meta-coding-interview-format-s7SfzXKn?commentsSort=recent
+
+
+https://www.techinterviewhandbook.org/grind75?weeks=28&hours=6
+
