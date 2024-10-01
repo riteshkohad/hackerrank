@@ -21,6 +21,12 @@ class LinkedList:
         for x in reversed(lst):
             new_node = LinkedListNode(x)
             self.insert_node_at_head(new_node)
+
+    def print_linked_list(self):
+        hd = self.head
+        while hd:
+            print(f"Current node data:{hd.data}")
+            hd = hd.next
     
     # __str__(self) method will display the elements of linked list.
     def __str__(self):
