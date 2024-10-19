@@ -20,6 +20,7 @@ def merge(nums1, m: int, nums2, n: int) -> None:
         
         l -= 1
     
+    # loop thru the remaining elements if there are any
     while two >= 0:
         nums1[l] = nums2[two]
         two -= 1
