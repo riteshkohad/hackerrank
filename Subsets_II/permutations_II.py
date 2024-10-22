@@ -10,11 +10,12 @@ def permute_word(word):
     if len(word) == 1:
         return tmp
     
-    # do not pick
-    
+    # do not pick didn't understand 
+
 
 
 if __name__ == "__main__":
     inpt = "abc"
     result = permute_word(inpt)
     print(result)
+
